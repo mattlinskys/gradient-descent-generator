@@ -1,0 +1,28 @@
+{
+  "name": "gradient-descent-generator",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Multivariable gradient descent using generator function",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "test": "jest",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "author": "Matt",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.5",
+    "microbundle": "^0.14.2",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
