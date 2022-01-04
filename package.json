@@ -11,6 +11,7 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "microbundle",
@@ -18,6 +19,10 @@
   },
   "author": "Matt",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattlinskys/gradient-descent-generator"
+  },
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "jest": "^27.4.5",
