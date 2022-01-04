@@ -1,5 +1,5 @@
 # Gradient descent generator
-Multivariable gradient descent using generator [function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+Multivariable gradient descent using generator [function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) with no dependencies
 
 ### Example
 
