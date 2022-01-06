@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Gradient descent generator - example",
+      template: path.join(__dirname, "src", "index.html"),
     }),
   ],
 };

@@ -5,7 +5,7 @@ const normalize = (v: number[]) => Math.sqrt(dot(v, v));
 function* gradientDescentGenerator(
   init: number[],
   lambda: (...args: number[]) => number,
-  maxIters = 50000,
+  maxIters = 50_000,
   rate = 0.001,
   precision = 0.01
 ): IterableIterator<{
